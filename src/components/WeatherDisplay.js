@@ -2,7 +2,7 @@ import React from 'react';
 
 const WeatherDisplay = ({ weather }) => {
     const temperatureStyle = {
-        color: weather.temperature > 20 ? "red" : "blue",
+        color: weather.temperature > 20 ? "rgb(255, 0, 0)" : "rgb(0,0,255)",
         fontSize: "24px",
         fontWeight: "bold",
     };
